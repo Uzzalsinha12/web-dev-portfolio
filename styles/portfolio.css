@@ -7,6 +7,9 @@
     font-variation-settings:
         "wdth" 100;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -75,4 +78,24 @@ nav li a{
 .banner-profile-pic{
     width: 580px;
 
+}
+/* mainstyles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* aboutstyles */
+.about{
+   border-radius: 10px;
+   padding: 130px 150px; 
+   text-align: center; 
+   margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-desceiption{
+    font-weight: 600;
 }
